@@ -51,5 +51,11 @@ public class Gauntlet {
 		}
 		System.out.println();
 		}
+		for (int row = 0; row < 6; row ++) {
+			for (int column = 0; column < row +1; column ++) {
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
 	}
 }
